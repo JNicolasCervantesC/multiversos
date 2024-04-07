@@ -86,7 +86,7 @@ public class Aplication {
         Alexander_Joseph.setEdad(40);
         Alexander_Joseph.setCity("Lisboa");
         
-        Villanos Lex_Luthor = new Villanos("Lex Luthor", Alexander_Joseph, "Illumination");
+        Villanos Lex_Luthor = new Villanos("Lex Luthor", Alexander_Joseph, "DC Comics");
         System.out.println("Nombre: "+ Lex_Luthor.persona.name);
         System.out.println("Edad: "+ Lex_Luthor.persona.edad);
         System.out.println("Ciudad: "+ Lex_Luthor.persona.city);
@@ -101,7 +101,6 @@ public class Aplication {
 		{
 			System.out.println("----------------Heroes----------------");
 			Heroes();
-			
 		}
 		if (i== "Villanos")
 		{
