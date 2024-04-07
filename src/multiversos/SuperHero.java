@@ -3,7 +3,7 @@ package multiversos;
 public class SuperHero extends Persona {
 
     String heroName;
-    String powers[] = {"Volar","Lansar telarañas","Super Fuersa","Telepatia"};
+    String powers[] = {"Volar","Sentido aracnido","Super Fuersa"};
     String franquicia;
     Persona persona;
 
